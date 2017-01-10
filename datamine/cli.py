@@ -51,3 +51,8 @@ def download(username, query, filename):
     with DataMine(username, password) as datamine:
         datamine.execute(query)
         datamine.download(filename)
+
+
+if __name__ == '__main__':
+    main()
+
