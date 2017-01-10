@@ -79,7 +79,9 @@ setup(
     ),
 
     install_requires=[
+        'click',
         'requests',
+        'tabulate',
     ],
     extras_require={
         'dev': ['flake8', 'pylint', ]
@@ -87,6 +89,7 @@ setup(
 
     entry_points={
         'console_scripts': [
+            '%s = %s.cli:main' % (NAME, NAME),
         ]
     },
 
