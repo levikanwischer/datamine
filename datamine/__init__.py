@@ -13,7 +13,7 @@ from datamine.core import DataMine
 
 
 __title__ = 'datamine'
-__version__ = '1.0.0'
+__version__ = '0.1.0.dev1'
 __license__ = 'MIT license'
 __author__ = 'Levi Kanwischer'
 __maintainer__ = 'Levi Kanwischer'
