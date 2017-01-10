@@ -8,7 +8,7 @@ Usage
 -----
 .. code-block:: python
 
-    >>> import datamine
+    >>> from datamine import DataMine
     >>> with DataMine('YOUR_USERNAME', 'YOUR_PASSWORD') as datamine:
     >>>     datamine.execute('YOUR_QUERY_STRING')
     >>>     datamine.download('YOUR_DOWNLOAD_FILENAME.csv')
