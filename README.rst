@@ -19,16 +19,3 @@ Installation
 .. code-block:: bash
 
     $ pip install git+https://github.com/levikanwischer/datamine.git
-
-
-Requirements
-------------
-N/A
-
-
-Contribute
-----------
-#. Check/Open Issue for related topics of change
-#. Fork/Clone/Branch repo and make discussed/desired changes
-#. Add tests and document code w/ numpy formatting
-#. Open Pull Request and notify author
